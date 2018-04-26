@@ -33,7 +33,7 @@ know for certain is 100% accurate.
 Based on a sample of 1000 containing 17 variables the proportion of client who
 subscribed is 123 while proportion of client who do not subscribed is 877
 
-<img src="/img/summary.png">
+<img src="/img/summary.PNG">
 
 The average age of clients of the bank is 40.65, and deviates from the mean by
 10.64. The average number of contacts performed during a campaign for each client
