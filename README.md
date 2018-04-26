@@ -33,7 +33,7 @@ know for certain is 100% accurate.
 Based on a sample of 1000 containing 17 variables the proportion of client who
 subscribed is 123 while proportion of client who do not subscribed is 877
 
-![Screenshot](../master/img/summary.png)
+<img src="/img/summary.png">
 
 The average age of clients of the bank is 40.65, and deviates from the mean by
 10.64. The average number of contacts performed during a campaign for each client
@@ -46,7 +46,7 @@ create classification models.
 
 ### Decision Tree
 
-![Screenshot](../master/img/summary.png)
+![Screenshot](img/decisiontree.png)
 
 The decision tree in figure 1 has 24 branch with 8 of them are “yes” for subscribed and 16
 are “no” for subscribed.
