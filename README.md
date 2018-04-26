@@ -46,7 +46,7 @@ create classification models.
 
 ### Decision Tree
 
-![Screenshot](img/decisiontree.png)
+![Screenshot](img/decisiontree.PNG)
 
 The decision tree in figure 1 has 24 branch with 8 of them are “yes” for subscribed and 16
 are “no” for subscribed.
