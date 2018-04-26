@@ -33,7 +33,7 @@ know for certain is 100% accurate.
 Based on a sample of 1000 containing 17 variables the proportion of client who
 subscribed is 123 while proportion of client who do not subscribed is 877
 
-![Screenshot](/img/summary.png)
+![Screenshot](../master/img/summary.png)
 
 The average age of clients of the bank is 40.65, and deviates from the mean by
 10.64. The average number of contacts performed during a campaign for each client
@@ -46,14 +46,14 @@ create classification models.
 
 ### Decision Tree
 
-![Screenshot](/img/summary.png)
+![Screenshot](../master/img/summary.png)
 
 The decision tree in figure 1 has 24 branch with 8 of them are “yes” for subscribed and 16
 are “no” for subscribed.
 
 ### Accuracy of Models using Confusion Matrix
 
-![Screenshot](/img/modelaccuracy.png)
+![Screenshot](img/modelaccuracy.png)
 
 Accuracy is the ratio of correct predictions and total predictions made. Based on table 2,
 random forest has the highest accuracy, followed by naive bayes. Boosting and bagging have
@@ -61,13 +61,13 @@ the same accuracy while decision tree has the lowest accuracy
 
 ### ROC Curve for All Models
 
-![Screenshot](/img/ROCcurve.png)
+![Screenshot](img/ROCcurve.png)
 
 From the ROC curve, random forest has the highest curve, followed by naïve bayes,
 boosting and bagging. Decision tree has the lowest curve. The result of all five models are
 better than a ‘random’ classifier.
 
-![Screenshot](/img/ROCarea.png)
+![Screenshot](img/ROCarea.png)
 
 AUC shows the ability of the model to discriminate between clients who subscribed and do
 not subscribed. Table 2 shows the AUC of each model and random forest has the highest AUC,
@@ -76,7 +76,7 @@ AUC, which is 0.7469
 
 ### Comparison of Results from Confusion Matrix Accuracy and AUC
 
-![Screenshot](/img/comparison.png)
+![Screenshot](img/comparison.png)
 
 From table 4, decision tree has the lowest accuracy, 0.8233, compared to the rest which are higher.
 Decision tree also has the lowest AUC among the models. Random forest has the highest Accuracy
@@ -85,7 +85,7 @@ other four models are in the range of excellent discrimination.
 
 ### Most Important Variables for Each Models
 
-![Screenshot](/img/attributes.png)
+![Screenshot](img/attributes.png)
 
 For bagging, boosting, and random forest, I assume the variables are important if the value is 10 or
 more.
@@ -95,13 +95,13 @@ more.
 I decided to prune my decision tree to reduce the complexity of my original tree and improve the
 accuracy.
 
-![Screenshot](/img/afterpruning.png)
+![Screenshot](img/afterpruning.png)
 
 Figure 3 shows the decision tree after pruning. It has 5 branches, compared to the original one which
 contains 24 branches. The reason I choose 5 is because it has the least number of misclass to
 improve accuracy
 
-![Screenshot](/img/confusionmatrix.png)
+![Screenshot](img/confusionmatrix.png)
 
 The original accuracy is 0.8233
 The accuracy of decision tree after pruning is
